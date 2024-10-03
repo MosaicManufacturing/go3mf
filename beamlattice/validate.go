@@ -4,8 +4,8 @@
 package beamlattice
 
 import (
-	"github.com/hpinc/go3mf"
-	"github.com/hpinc/go3mf/errors"
+	"github.com/MosaicManufacturing/go3mf"
+	"github.com/MosaicManufacturing/go3mf/errors"
 )
 
 func (Spec) Validate(m interface{}, path string, obj interface{}) error {

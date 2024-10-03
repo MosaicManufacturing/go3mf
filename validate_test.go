@@ -10,8 +10,8 @@ import (
 	"sort"
 	"testing"
 
+	"github.com/MosaicManufacturing/go3mf/errors"
 	"github.com/go-test/deep"
-	"github.com/hpinc/go3mf/errors"
 )
 
 func TestValidate(t *testing.T) {

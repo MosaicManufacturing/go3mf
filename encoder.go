@@ -13,8 +13,8 @@ import (
 	"strconv"
 	"strings"
 
-	xml3mf "github.com/hpinc/go3mf/internal/xml"
-	"github.com/hpinc/go3mf/spec"
+	xml3mf "github.com/MosaicManufacturing/go3mf/internal/xml"
+	"github.com/MosaicManufacturing/go3mf/spec"
 )
 
 const defaultFloatPrecision = 4

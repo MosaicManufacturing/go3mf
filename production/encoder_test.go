@@ -6,8 +6,8 @@ package production
 import (
 	"testing"
 
+	"github.com/MosaicManufacturing/go3mf"
 	"github.com/go-test/deep"
-	"github.com/hpinc/go3mf"
 )
 
 func TestMarshalModel(t *testing.T) {

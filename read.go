@@ -15,9 +15,9 @@ import (
 	"sync"
 	"unsafe"
 
-	specerr "github.com/hpinc/go3mf/errors"
-	xml3mf "github.com/hpinc/go3mf/internal/xml"
-	"github.com/hpinc/go3mf/spec"
+	specerr "github.com/MosaicManufacturing/go3mf/errors"
+	xml3mf "github.com/MosaicManufacturing/go3mf/internal/xml"
+	"github.com/MosaicManufacturing/go3mf/spec"
 )
 
 var checkEveryTokens = 1000

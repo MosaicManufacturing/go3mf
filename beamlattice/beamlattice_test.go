@@ -7,7 +7,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/hpinc/go3mf/spec"
+	"github.com/MosaicManufacturing/go3mf/spec"
 )
 
 var _ spec.Marshaler = new(BeamLattice)

@@ -6,8 +6,8 @@ package production
 import (
 	"testing"
 
-	"github.com/hpinc/go3mf"
-	"github.com/hpinc/go3mf/spec"
+	"github.com/MosaicManufacturing/go3mf"
+	"github.com/MosaicManufacturing/go3mf/spec"
 )
 
 var _ spec.MarshalerAttr = new(BuildAttr)

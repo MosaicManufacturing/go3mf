@@ -10,7 +10,7 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/hpinc/go3mf/spec"
+	"github.com/MosaicManufacturing/go3mf/spec"
 )
 
 const (

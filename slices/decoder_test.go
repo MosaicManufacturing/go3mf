@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/MosaicManufacturing/go3mf"
+	specerr "github.com/MosaicManufacturing/go3mf/errors"
 	"github.com/go-test/deep"
-	"github.com/hpinc/go3mf"
-	specerr "github.com/hpinc/go3mf/errors"
 )
 
 func TestDecode(t *testing.T) {

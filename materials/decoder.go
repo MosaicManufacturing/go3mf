@@ -8,9 +8,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/hpinc/go3mf"
-	specerr "github.com/hpinc/go3mf/errors"
-	"github.com/hpinc/go3mf/spec"
+	"github.com/MosaicManufacturing/go3mf"
+	specerr "github.com/MosaicManufacturing/go3mf/errors"
+	"github.com/MosaicManufacturing/go3mf/spec"
 )
 
 func (Spec) DecodeAttribute(interface{}, spec.Attr) error {

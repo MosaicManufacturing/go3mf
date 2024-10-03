@@ -10,7 +10,7 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/hpinc/go3mf"
+	"github.com/MosaicManufacturing/go3mf"
 )
 
 var checkEveryFaces = 1000

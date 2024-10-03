@@ -17,9 +17,9 @@ import (
 	"strings"
 	"testing"
 
+	specerr "github.com/MosaicManufacturing/go3mf/errors"
+	"github.com/MosaicManufacturing/go3mf/spec"
 	"github.com/go-test/deep"
-	specerr "github.com/hpinc/go3mf/errors"
-	"github.com/hpinc/go3mf/spec"
 	"github.com/stretchr/testify/mock"
 )
 

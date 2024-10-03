@@ -8,7 +8,7 @@ import (
 	"encoding/binary"
 	"io"
 
-	"github.com/hpinc/go3mf"
+	"github.com/MosaicManufacturing/go3mf"
 )
 
 type binaryHeader struct {

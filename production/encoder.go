@@ -6,7 +6,7 @@ package production
 import (
 	"encoding/xml"
 
-	"github.com/hpinc/go3mf/spec"
+	"github.com/MosaicManufacturing/go3mf/spec"
 )
 
 // Marshal3MFAttr encodes the resource attributes.

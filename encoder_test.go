@@ -12,8 +12,8 @@ import (
 	"strconv"
 	"testing"
 
+	"github.com/MosaicManufacturing/go3mf/spec"
 	"github.com/go-test/deep"
-	"github.com/hpinc/go3mf/spec"
 	"github.com/stretchr/testify/mock"
 )
 

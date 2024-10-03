@@ -9,8 +9,8 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/MosaicManufacturing/go3mf"
 	"github.com/go-test/deep"
-	"github.com/hpinc/go3mf"
 )
 
 func TestNewDecoder(t *testing.T) {

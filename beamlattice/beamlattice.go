@@ -5,7 +5,7 @@ package beamlattice
 
 import (
 	"errors"
-	"github.com/hpinc/go3mf"
+	"github.com/MosaicManufacturing/go3mf"
 )
 
 // Namespace is the canonical name of this extension.

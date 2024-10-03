@@ -6,8 +6,8 @@ package slices
 import (
 	"math"
 
-	"github.com/hpinc/go3mf"
-	"github.com/hpinc/go3mf/errors"
+	"github.com/MosaicManufacturing/go3mf"
+	"github.com/MosaicManufacturing/go3mf/errors"
 )
 
 func validTransform(t go3mf.Matrix) bool {

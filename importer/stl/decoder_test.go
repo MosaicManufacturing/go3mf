@@ -4,8 +4,10 @@
 package stl
 
 import (
+	"bufio"
 	"bytes"
 	"io"
+	"os"
 	"reflect"
 	"testing"
 
@@ -66,5 +68,28 @@ func TestDecoder_Decode(t *testing.T) {
 				}
 			}
 		})
+	}
+}
+
+func TestDecoder_MinFileSize(t *testing.T) {
+	file, err := os.Open("../../testdata/tetrahedron.stl")
+	if err != nil {
+		t.Fatalf("Failed to open file: %v", err)
+	}
+	defer file.Close()
+
+	got := new(go3mf.Model)
+	decoder := NewDecoder(bufio.NewReader(file))
+	err = decoder.Decode(got)
+	if err != nil {
+		t.Fatalf("Failed to decode: %v", err)
+	}
+
+	if got.Resources.Objects[0].Mesh == nil {
+		t.Fatalf("Expected non-nil Mesh in the first Object")
+	}
+
+	if len(got.Resources.Objects[0].Mesh.Triangles) != 4 {
+		t.Fatalf("Expected a mesh with 4 triangles after parsing")
 	}
 }

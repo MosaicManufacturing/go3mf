@@ -37,18 +37,18 @@ func newPairEntry(data1, data2 uint32) pairEntry {
 
 // vec3I represents a 3D vector typed as int32
 type vec3I struct {
-	X int32 // X coordinate
-	Y int32 // Y coordinate
-	Z int32 // Z coordinate
+	X int64 // X coordinate
+	Y int64 // Y coordinate
+	Z int64 // Z coordinate
 }
 
 const micronsAccuracy = 1e-6
 
 func newvec3IFromVec3(vec Point3D) vec3I {
 	a := vec3I{
-		X: int32(math.Floor(float64(vec.X() / micronsAccuracy))),
-		Y: int32(math.Floor(float64(vec.Y() / micronsAccuracy))),
-		Z: int32(math.Floor(float64(vec.Z() / micronsAccuracy))),
+		X: int64(math.Floor(float64(vec.X() / micronsAccuracy))),
+		Y: int64(math.Floor(float64(vec.Y() / micronsAccuracy))),
+		Z: int64(math.Floor(float64(vec.Z() / micronsAccuracy))),
 	}
 	return a
 }

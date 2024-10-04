@@ -15,7 +15,7 @@ import (
 
 var checkEveryFaces = 1000
 
-const sizeOfHeader = 300 // minimum size of a closed mesh in binary is 384 bytes, corresponding to a triangle.
+const sizeOfHeader = 284 // minimum size of a closed mesh in binary is 284 bytes, corresponding to a triangle.
 
 // Decoder can decode a stl.
 // It supports automatic detection of binary or ascii stl encoding.

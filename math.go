@@ -35,7 +35,7 @@ func newPairEntry(data1, data2 uint32) pairEntry {
 	return pairEntry{data2, data1}
 }
 
-// vec3I represents a 3D vector typed as int32
+// vec3I represents a 3D vector typed as int64
 type vec3I struct {
 	X int64 // X coordinate
 	Y int64 // Y coordinate
